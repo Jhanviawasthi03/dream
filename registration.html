@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <div class="logo">
+                <img src="tas2im-removebg-preview.png" alt="Logo">
+            </div>
+            <h1>DreamFinder</h1>
+            <ul>
+                <li><a href="index.html">Landing</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a > Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="formc">
+            <form class="reg" id="registrationForm">
+                <label for="fn">Enter First Name:</label>
+                <input type="text" id="fn" required>
+              
+                <label for="ln">Enter Last Name:</label>
+                <input type="text" id="ln" required>
+
+                <label for="em">Enter Email:</label>
+                <input type="email" id="em" required>
+
+                <label for="passw">Enter Password:</label>
+                    <div class="password-container">
+                    <input type="password" id="passw" required>
+                    <button type="button" onclick="togglePassword('passw')">Show</button>
+                </div>
+            
+                <label for="cpassw">Confirm Password:</label>
+                <div class="password-container">
+                    <input type="password" id="cpassw" required>
+                    <button type="button" onclick="togglePassword('cpassw')">Show</button>
+                </div>
+                <div id="error"></div>
+                <button type="submit" id="sub">Submit</button>
+            </form> 
+        </div>
+    </div>
+    <script src="reg.js"></script>
+</body>
+</html>

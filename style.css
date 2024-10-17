@@ -1,0 +1,120 @@
+
+body{
+
+    background-color: #87c7c7;
+    margin: 0; 
+    padding: 0;
+    background-image: url("dreamlow.png");
+    overflow: hidden;
+}
+.hero {
+    background-color: #7699b5;
+    display:flex;
+    justify-content:flex-start;
+    color: white; 
+    padding: 2px 5px; 
+    text-align: center;
+    position:sticky;
+    z-index:1000;
+    top: 0;
+    height:60px;
+    position:absolute;
+}
+.logo img {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px; 
+    padding-top: 5px;
+    width:100px;
+    height:40px;
+    width:80px;
+}
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin-left: 1200px; 
+    display: flex;
+}
+
+     h1 {
+        font-size: 1.8em;
+        margin: -30px ;
+} 
+ul li {
+ margin: 0 15px;
+ display: inline;
+ margin: -10px 20px;
+}
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size:0.9em
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: beige; 
+}
+
+form{
+    background-color: rgb(102, 172, 229);
+}
+.reg{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px auto;
+    max-width:800px;
+    padding:20px;
+}
+.reg label{
+    margin-top:10px;
+}
+.reg input{
+    margin-top: 5px;
+    padding:10px;
+}
+.reg button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+    .reg button:hover {
+      background-color: #45a049;
+    }
+.container{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center; 
+    padding: 20px; 
+}
+.formc{
+    background: white; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin-top: 100px;;
+
+}
+.password-container {
+    display: flex; 
+    align-items: center;
+}
+button{
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+}
+button:hover {
+    background-color: #4cae4c; 
+}
+#error{
+    color:red;
+}
